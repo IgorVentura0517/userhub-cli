@@ -12,7 +12,7 @@ def create_table():
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS users(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        name TEXT NOT NULL,
+        nome TEXT NOT NULL,
         email TEXT NOT NULL
     )            
     """)
@@ -20,4 +20,27 @@ def create_table():
     connection.commit()
     connection.close()
 
+### Função de inserir usuários ###
+def create_user(nome, email):
+    import sqlite3
+    
+    with sqlite3.connect("users.db") as connection:
+        cursor = connection.cursor()
+        
+        cursor.execute(
+            "INSERT INTO users (nome, email) VALUES (?, ?)",
+            (nome, email)
+        )
 
+
+### Função de selecionar usuários ###
+
+def get_users():
+
+    with sqlite3.connect("users.db") as connection:
+        cursor = connection.cursor()
+
+        cursor.execute("SELECT * FROM users")
+        users = cursor.fetchall()
+
+        return users   

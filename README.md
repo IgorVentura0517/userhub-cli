@@ -4,18 +4,18 @@
 Aplicação em linha de comando para gerenciamento de usuários com operações completas de CRUD. Este projeto foi desenvolvido com o objetivo de praticar conceitos de backend, como persistência de dados, integração com banco de dados e organização de código.
 
 ##Funcionalidades:
-- Cadastrar usuários
-- Listar usuários
-- Atualizar usuários
-- Deletar usuários
+- Cadastrar usuários.
+- Listar usuários.
+- Atualizar usuários.
+- Deletar usuários.
 
 ## Tecnologias Utilizadas:
-- Python
-- SQLite
+- Python.
+- SQLite.
 
 ## Estrutura do Projeto:
-- `main.py` → Responsável pela interação com o usuário e fluxo da aplicação
-- `database.py` → Responsável pela conexão com o banco de dados e execução das queries
+- `main.py` → Responsável pela interação com o usuário e fluxo da aplicação.
+- `database.py` → Responsável pela conexão com o banco de dados e execução das queries.
 
 ## Como Executar
 
@@ -25,12 +25,12 @@ Aplicação em linha de comando para gerenciamento de usuários com operações 
 
 
 ## Aprendizados
-- Desenvolvimento de um sistema CRUD do zero
-- Integração com banco de dados utilizando SQLite
-- Separação de responsabilidades no código
-- Uso de Git e GitHub para versionamento
+- Desenvolvimento de um sistema CRUD do zero.
+- Integração com banco de dados utilizando SQLite.
+- Separação de responsabilidades no código.
+- Uso de Git e GitHub para versionamento.
 
 ## Melhorias Futuras
-- Validação de dados de entrada
-- Tratamento de erros
-- Evolução para uma API REST utilizando Flask
+- Validação de dados de entrada.
+- Tratamento de erros.
+- Evolução para uma API REST utilizando Flask.

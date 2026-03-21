@@ -1,7 +1,7 @@
 # Sistema de Gerenciamento de Usuários (CLI)
 
 ## 📌 Descrição
-Aplicação em linha de comando para gerenciamento de usuários com operações completas de CRUD. Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de backend, como persistência de dados, integração com banco de dados e organização de código.
+Aplicação em linha de comando para gerenciamento de usuários com operações completas de CRUD. Este projeto foi desenvolvido com o objetivo de praticar conceitos de backend, como persistência de dados, integração com banco de dados e organização de código.
 
 ##Funcionalidades:
 - Cadastrar usuários
@@ -19,8 +19,8 @@ Aplicação em linha de comando para gerenciamento de usuários com operações 
 
 ## Como Executar
 
-1. Clonar o repositório: git clone
-2. Acessar a pasta do projeto: cd user-management-cli
+1. Clonar o repositório: git clone git@github.com:IgorVentura0517/userhub-cli.git
+2. Acessar a pasta do projeto: cd userhub-cli
 3. Executar a aplicação: python main.py
 
 
